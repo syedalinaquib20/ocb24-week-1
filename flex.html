@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid red;
+            min-height: 50px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" style="display: flex; flex-direction: column;  border-color: blue; gap: 16px;">
+        <div class="box" style="border-color: red; display: flex; flex-direction: column; gap: 16px;">
+            <div class="box" style="border-color: green;"></div>
+            <div class="box" style="border-color: green; display: flex; flex-direction: row; flex-wrap: wrap; gap: 16px; justify-content: center; height: 400px; align-items: baseline;">
+                <div class="box" style="border-color: purple; font-size: 14px;">Ali</div>
+                <div class="box" style="border-color: purple; font-size: 28px;">Syamiera</div>
+                <div class="box" style="border-color: purple; font-size: 32px;">Abu</div>
+                <div class="box" style="border-color: purple; font-size: 48px;" >Atan</div>
+                <div class="box" style="border-color: purple; font-size: 64px;">Aqim</div>
+            </div>
+        <div class="box" style="border-color: green; display: flex; flex-direction: row; gap: 16px;">
+            <div class="box" style="border-color: cyan; flex-grow: 1;"></div>
+            <div class="box" style="border-color: cyan; display: flex; flex-direction: column; gap: 16px; flex-grow: 2;">
+                <div class="box" style="border-color: brown"></div>
+                <div class="box" style="border-color: brown"></div>
+                <div class="box" style="border-color: brown"></div>
+            </div>
+        </div>
+        <div class="box" style="border-color: green; display: flex; flex-direction: row;"></div>
+    </div>
+</div>
+</body>
+</html>
